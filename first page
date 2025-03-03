@@ -85,7 +85,7 @@
             <img src="https://sun6-23.userapi.com/impf/c849524/v849524513/1950f3/RjkyIfR_kpM.jpg?size=1280x1234&quality=96&sign=40c7f9e619bbac3cd355d48bc94a8a43&type=album" alt="Фото профиля">
             <p>Меня зовут Игорь, я учусь заниматься веб-разработкой и созданием цифровых продуктов.</p>
         </section>
-        
+        <footer>
         <section class="contacts">
             <h2>Контакты</h2>
             <ul>
@@ -94,7 +94,7 @@
                 <li>GitHub: <a href="https://github.com/firsttryhtml" target="_blank">github.com/firsttryhtml</a></li>
             </ul>
         </section>
-
+        </footer>
       <button class="greet-btn" onclick="greetUser()">Поздороваться</button>
 
     </div>
