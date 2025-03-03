@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обо мне</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            font-size: 18px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .about {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .about img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .contacts ul {
+            list-style: none;
+            padding: 0;
+        }
+        .contacts li {
+            margin: 10px 0;
+        }
+        .contacts a {
+            text-decoration: none;
+            color: #0073e6;
+        }
+        @media (max-width: 600px) {
+            .about {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Привет! Я человек </h1>
+        <p>Здесь вы найдете информацию обо мне и мои контакты.</p>
+        
+        <section class="about">
+            <img src="https://sun6-23.userapi.com/impf/c849524/v849524513/1950f3/RjkyIfR_kpM.jpg?size=1280x1234&quality=96&sign=40c7f9e619bbac3cd355d48bc94a8a43&type=album" alt="Фото профиля">
+            <p>Меня зовут Игорь, я учусь заниматься веб-разработкой и созданием цифровых продуктов.</p>
+        </section>
+        
+        <section class="contacts">
+            <h2>Контакты</h2>
+            <ul>
+                <li>Email: <a href="mailto:khalfin.igor95@mail.com">khalfin.igor95@mail.com</a></li>
+                <li>Telegram: <a href="https://t.me/badhalfy" target="_blank">@badhalfy</a></li>
+                <li>GitHub: <a href="https://github.com/firsttryhtml" target="_blank">github.com/firsttryhtml</a></li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
