@@ -50,7 +50,31 @@
                 text-align: center;
             }
         }
+
+.greet-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+
     </style>
+
+<script>
+        function greetUser() {
+            let name = prompt("Введите ваше имя:");
+            if (name) {
+                alert("Привет, " + name + "!");
+            }
+        }
+    </script>
+
+
 </head>
 <body>
     <div class="container">
@@ -70,6 +94,9 @@
                 <li>GitHub: <a href="https://github.com/firsttryhtml" target="_blank">github.com/firsttryhtml</a></li>
             </ul>
         </section>
+
+      <button class="greet-btn" onclick="greetUser()">Поздороваться</button>
+
     </div>
 </body>
 </html>
